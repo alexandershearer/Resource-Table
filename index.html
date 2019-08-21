@@ -1,0 +1,80 @@
+<!DOCTYPE html> <!-- This is doctype-->
+
+<html>
+<!-- All of the html coding will go between the html tags-->
+
+<head>
+    <!-- All meta data and title should go in the head tag-->
+
+    <title>Resource Table Site</title>
+    <meta name="author" content="Alex Shearer">
+    <meta name="description" content="This is the site that we use to list all resources for web development">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Muli|Oswald&display=swap" rel="stylesheet">
+
+</head>
+
+<!--Body element-->
+
+<body>
+    <!--Header for the website-->
+    <h1 style="text-align: center;">My Web Development Resources</h1>
+    <!--This anchor tag is used to link to stuff-->
+    <!-- the href tag is the url that the anchor tag navigates to-->
+    <!-- the target attribute determines how the link is opened by our browser-->
+    <!--_blank open a new tab-->
+    <a href="https://www.google.com" target="_blank" class="google">Google</a>
+    
+    <!--this is the container for an HTML table-->
+    <table>
+        <!--Tables in html consits of multiple rows and columns. Each row will have data that 
+                will be stored in each column-->
+        <!--Tables can also have headers for the columns that we can display-->
+        <!--Each row for the table is a tr element-->
+        <tr style="font-weight: bolder; font-size: larger" >
+            <!-- A th is a table header-->
+            <th>Resource</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+
+        <tr class="row">
+            <!--td is going to consist of the table data-->
+            <td>W3Schools</td>
+            <td>Web development Tutorials and Documentation</td>
+            <td>
+                <a href="https://www.w3schools.com" target="_blank">Link</a>
+            </td>
+        </tr>
+        <tr class="row">
+        <td>MDN Web Docs</td>
+        <td>Questions related to Web Development</td>
+        <td>
+            <a href="https://developer.mozilla.org/en-US/" target="_blank">Link</a>
+        </td>
+        </tr>
+        <tr class="row">
+            <td>Stack Overflow</td>
+            <td>Online Community for Developers</td>
+            <td>
+                <a href="https://www.stackoverflow.com" target="_blank">Link</a>
+            </td>
+        </tr>
+        <tr class="row">
+            <td>Google Dev Tools</td>
+            <td>Inisght on Google Dev tools for Chrome</td>
+            <td>
+                <a href="https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2" target="_blank">Link</a>
+            </td>
+        </tr>
+    </table>
+    <p style="text-align: center; width: 50%; margin: 0 auto; margin-top: 35px; font-weight: bolder; line-height: 2.0;">
+        This table represents some sites that will help in understand a lot of the code that we are going to be entering. If you ever need any information or any guidance then please refer to any of the links inside the table.
+    </p>
+</body>
+
+
+</html>

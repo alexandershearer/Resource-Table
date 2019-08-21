@@ -1,0 +1,39 @@
+html {
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#ff76ed, rgb(150, 73, 223), rgb(81, 206, 255));
+  color: white;
+  font-family: 'Bitter', sans-serif;
+}
+a{
+ color: rgb(255, 255, 255);
+ text-decoration: none; 
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+  }
+  th, td{
+    height: 30px;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    text-align:left;
+  }
+
+  .google{
+    font-size: 32px;
+    display: inline-block;
+    margin: 30px 0;
+    text-align: center;
+    width: 100%;
+  }
+  /* .row{
+    opacity: .5;
+  } */
+  .row:hover
+  {background-color: rgba(255, 1, 1, 0.226);
+    opacity: 1;
+  }
+  
+  
